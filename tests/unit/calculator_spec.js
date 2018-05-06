@@ -34,7 +34,7 @@ describe('calculator', function () {
   assert.deepStrictEqual(calculator.runningTotal, 50)
 });
 
-it('you can clear the screen', function(){
+  it('you can clear the screen', function(){
   calculator.numberClick(3);
   calculator.operatorClick('+')
   calculator.numberClick(3);
